@@ -3,42 +3,42 @@
     padding: 0;
 }
 
-.background {
+/* .background {
     width: 100%;
     height: 100%;
-    background-image: url(image/bg03.jpg);
+    background-image: url(/image/bg03.jpg);
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    
     position: relative;
     overflow-y: auto;
-}
+} */
 
-.background-gallery {
+/* .background-gallery {
     width: 100%;
     height: 750px;
-    background-image: url(image/bg02.jpg);
+    background-image: url(/image/bg02.jpg);
     background-repeat: no-repeat;
     position: relative;
     overflow-y: auto;
-}
+} */
 
-.background-contact {
+/* .background-contact {
     width: 100%;
     height: 100%;
-    background-image: url(image/bg04.jpg);
+    background-image: url(/image/bg04.jpg);
     background-repeat: no-repeat;
     position: relative;
     overflow-y: auto;
-}
+} */
 
-.background-aboutme {
+/* .background-aboutme {
     width: 100%;
     height: 100%;
-    background-image: url(image/bg07.jpg);
+    background-image: url(/image/bg07.jpg);
     background-repeat: no-repeat;
     position: relative;
     overflow-y: auto;
-}
+} */
 
 html, body {
     width: 100%;
@@ -72,7 +72,7 @@ html, body {
     transition: 300ms;
 }
 
-.a, .nav a:hover {
+a.active, .nav a:hover {
     background-color: rgba(255, 255, 255, 0.815);
     color: black;
     width: 100%;
